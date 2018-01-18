@@ -2,6 +2,7 @@ import React, {Component} from 'react';
 import Button from './components/Button';
 import Text from './components/Text';
 import Notification from './components/Notification';
+import Input from './components/Input';
 
 function handleButtonClick() {
     alert('button clicked');
@@ -58,7 +59,11 @@ class App extends Component {
                         error (string)
                         onInputChange (function)
                 */}
-
+                <Input
+                    label="Ad eiusmod consequat magna non sint est."
+                    placeholder="Test"
+                    
+                />
 
                 {/*
                     Component:

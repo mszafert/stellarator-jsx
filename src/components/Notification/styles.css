@@ -1,17 +1,17 @@
 .success {
     color: lightgreen;
     border: 1px solid lightgreen;
-    padding: 5px;
+    padding: 10px;
 }
 
 .danger {
     color: goldenrod;
     border: 1px solid goldenrod;
-    padding: 5px;
+    padding: 10px;
 }
 
 .info {
     color: dodgerblue;
     border: 1px solid dodgerblue;
-    padding: 5px;
+    padding: 10px;
 }
