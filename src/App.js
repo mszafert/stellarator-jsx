@@ -8,6 +8,10 @@ function handleButtonClick() {
     alert('button clicked');
 }
 
+function handleInputChange() {
+    alert('input changed');
+}
+
 class App extends Component {
     render() {
         return (
@@ -59,11 +63,7 @@ class App extends Component {
                         error (string)
                         onInputChange (function)
                 */}
-                <Input
-                    label="Ad eiusmod consequat magna non sint est."
-                    placeholder="Test"
-                    
-                />
+                <Input onInputChange={handleInputChange} />
 
                 {/*
                     Component:

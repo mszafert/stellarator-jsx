@@ -12,7 +12,7 @@ function Text({ children, heading, size }) {
 
 Text.propTypes = {
     heading: PropTypes.bool,
-    size: PropTypes.string
+    size: PropTypes.oneOf(['small', 'medium', 'large'])
 };
 
 Text.defaultProps = {
