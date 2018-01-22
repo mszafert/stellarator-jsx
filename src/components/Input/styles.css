@@ -6,7 +6,9 @@ label {
     display: block;
     margin-bottom: 5px;
 }
-input {
+input[type="text"],
+input[type="email"],
+input[type="password"] {
     box-sizing: border-box;
     padding: 0 8px;
     display: block;

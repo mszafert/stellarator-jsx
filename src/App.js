@@ -3,6 +3,10 @@ import Button from './components/Button';
 import Text from './components/Text';
 import Notification from './components/Notification';
 import Input from './components/Input';
+import LoginForm from './components/LoginForm';
+import Form from './components/Form';
+
+import FormConfig from './config/form';
 
 function handleButtonClick() {
     alert('button clicked');
@@ -63,7 +67,7 @@ class App extends Component {
                         error (string)
                         onInputChange (function)
                 */}
-                <Input onInputChange={handleInputChange} />
+                <Input name="input" onInputChange={handleInputChange} />
 
                 {/*
                     Component:
@@ -76,7 +80,7 @@ class App extends Component {
                     Expected behavior:
                         Login and password should be printed in the console on submit button click
                 */}
-
+                <LoginForm />
 
 
                 {/*
@@ -86,7 +90,7 @@ class App extends Component {
                     Props:
                         config (array of objects) - required
                 */}
-
+                <Form config={FormConfig} />
 
             </div>
         );

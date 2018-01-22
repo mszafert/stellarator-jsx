@@ -22,7 +22,7 @@ function Input({ type, name, placeholder, label, value, size, error, onInputChan
 
 Input.propTypes = {
     type: PropTypes.oneOf(['email', 'text', 'phone', 'textarea', 'password']),
-    name: PropTypes.string,
+    name: PropTypes.string.isRequired,
     placeholder: PropTypes.string,
     label: PropTypes.string,
     value: PropTypes.string,
