@@ -5,10 +5,10 @@ import Input from '../Input';
 function Form({config}) {
     return (
         <form>
-            {config.map((item, i) => {
+            {config.map((item) => {
                 return (
                     <Input
-                        key={i}
+                        key={item.name}
                         name={item.name}
                         type={item.type}
                         placeholder={item.placeholder}
